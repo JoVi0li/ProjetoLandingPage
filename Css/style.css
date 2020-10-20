@@ -48,3 +48,17 @@
     text-align: justify;
     margin: auto;
 }
+.banner_s{
+    width: 90%;
+    height: 500px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+}
+.text_s{
+    color: white;
+    width: 500px;
+    height: 100%;
+    text-align: justify;
+    margin: auto;
+}
