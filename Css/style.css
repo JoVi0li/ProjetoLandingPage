@@ -1,64 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@700&family=Open+Sans&display=swap');
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
 .topo{
-    width: 100%;
-    height: 100px;
-    background-color: yellow;
-    border-radius: 10px;
+    width: 100%;/*Define a largura de um elemento*/
+    height: 60px; /*Define a altura de um elemto*/
+    background-color: #f9003d;/*Altera a cor de fundo*/
 }
 .topo nav{
-    width: 100%;
-    height: 100px;
-} 
-.topo nav a{
-    text-transform: none;
-    text-decoration: none;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    text-transform: uppercase;
-    font-size: 20px;
-    padding: 39px 30px;
-}
-.topo nav ul{
-    width: 100%;
-    height: 100px;
+    width: 1200px;
+    height: 60px;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
-    list-style: none;
-    align-items: center;
+    justify-content: flex-end;
+}
+.topo  nav a{
+    color: white;/*Define a cor da fonte*/
+    text-decoration: none;/*Remove o underline*/
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding: 17px 50px;
 }
 .topo nav a:hover{
+    background-color: black;
     text-decoration: underline;
-    background-color: white;
-    border-radius: 1000px;
+}
+.topo nav ul{
+    width: 600px;
+    height: 60px;
+    list-style-type: none;/*Remove os marcadores*/
+    display: flex;/*Serve para definir o posicionamento*/
+    justify-content: space-around;
+    align-items: center;
 }
 .banner{
-    width: 90%;
-    height: 500px;
-    background-color: black;
-    border-radius: 10px;
-    margin: auto;
+    width: 100%;
+    height: 740px;
+    background-image: url("../Images/imagem-fundo-banner.jpg");
+    background-size: cover;
+    background-position: bottom;
 }
-.text{
-    color: white;
-    width: 500px;
+.content{
+    width: 1200px;
     height: 100%;
-    text-align: justify;
     margin: auto;
+    display: flex;
+    align-items: flex-end;
 }
-.banner_s{
-    width: 90%;
-    height: 500px;
-    background-color: black;
-    border-radius: 10px;
-    margin: auto;
+.banner_text{
+    width: 570px;
+    height: 530px;
 }
-.text_s{
+.banner_text h1{
+    font-size: 97px;
+    font-family: 'Bebas Neue', cursive;
     color: white;
-    width: 500px;
+    border-bottom: solid 1px #ffaf00;
+    padding-bottom: 20px;
+}
+.banner_text p{
+    font-size: 53px;
+    color: #f9003d;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Courier Prime', monospace;
+}
+.banner_text span{
+    color: red;
+}
+.bk_sobre{
+    width: 100%;
+    height: 750px;
+    background-color: #080324;
+}
+.sobre{
+    width: 1200px;
     height: 100%;
+    margin: 0 auto;
+}
+.sobre h2{
+    font-size: 64px;
+    color: #f9003d;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 65px
+    
+}
+.conteudo_sobre{
+    display: flex;
+    justify-content: space-between;
+}
+.conteudo_sobre img{
+    width: 491px;
+}
+.texto_sobre{
+    width: 600px;
+}
+.texto_sobre h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 65px;
+    color: #ffaf00;
+    line-height: 70px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.tag{
+    font-family: 'Courier Prime', monospace;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+}
+.texto_sobre p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
     text-align: justify;
-    margin: auto;
+}.bk_info{
+    width: 100%;
+    height: 200px;
+    background-image:url("../Images/imagem-fundo-info.jpg") ;
+    background-size: cover;   
+}
+.info{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Courier Prime', monospace;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info_card h3{
+    color: white;
+    font-size: 24px;
+}
+.info_card p{
+    width: 290px;
+    font-size: 28px;
+    color: #A259F7;
+    border: solid 1px;
+    text-align: center;
+    padding: 1em 0;
 }
