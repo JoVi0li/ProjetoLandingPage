@@ -2,6 +2,7 @@
 <html lang="pt-br">
    <head>
        <meta charset="UTF-8">
+       <meta name="viewport" content="widht = device-widht, initial-scale =1.0">
        <title>Landing Page - Curso de desenvovimento de sistemas</title>
        <link rel="stylesheet" href="css/Style.css">
     </head> 
@@ -22,16 +23,23 @@
                <div class="banner_text">
                    <h1>Desenvolvimento <br>de sistemas 2020</h1>
                    <p>SENAI <span>Informática</span></p>
-                   <img src="Images/mouse-down.png" alt="Mouse apontando com uma seta para baixo">
-               </div>
-           </div>
-       </div>
-       <div class="bk_sobre">
-           <section class="sobre">
-               <h2>Sobre os projetos</h2>
-               <div class="conteudo_sobre">
-                   <img src="images/imagem-seção-sobre.jpg" alt="Homem apresentando um produto para um grupo de pessoas">
-                   <div class="texto_sobre">
+                   <imagem>
+                       <img src="Images/mouse-down.png" alt="Mouse apontando com uma seta para baixo">
+                    </imagem>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="bk_sobre">
+            <section class="sobre">
+                <h2>Sobre os projetos</h2>
+                <div class="conteudo_sobre">
+                    <imagem>
+                    <source media="(max-width: 768px)" srcset="Images/reuniao-profissonal-trabalho-carreira.png">
+                     <source media="(max-width: 1200px)" srcset="Images/sobre-2.jpg">
+                    <img src="images/imagem-seção-sobre.jpg" alt="Homem apresentando um produto para um grupo de pessoas">
+                    </imagem>
+                    <div class="texto_sobre">
                        <h3><span class="tag">Participantes</span><br>mais de 80 alunos organizados em 16 grupos</h3>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta veritatis dolorem labore laborum quae quisquam harum autem totam tempora ad. Fugit corrupti tempore perferendis ipsum maxime dolorum voluptatum assumenda excepturi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque unde cupiditate odio repellendus. Voluptatum sunt aliquid cumque ipsam aspernatur quis recusandae at. Magnam distinctio similique, explicabo omnis tempora eos perspiciatis.</p>
                    </div>
@@ -54,5 +62,26 @@
             </div>
            </section>
        </div>
+       <section class="endereco">
+           <div class="alinhando-centro">
+               <div>
+                   <h2>endereço:</h2>
+                   <div class="text-endereco">
+                       <p>Alamed Barão de Limeira, 539 <br>
+                        Santa Cecília, São Paulo - SP<br>
+                        CEP: 01202-001
+                       </p>
+                       <img src="images/mapa.png" alt="Mapa">
+                   </div>
+               </div>
+           </div>
+       </section>
+       <footer class="rodape">
+           <div class="content alinhando-centro">
+               <p>Copyright @ 2020 - Escola Senai de Informática</p>
+           </div>
+           <a href="https://api.whatsapp.com/send?phone=5511989915309" target="_black"><img src="images/whatsapp-logo-icone.png" alt="Envie uma mensagem em nosso ZAP" class="zap"></a>
+
+       </footer>
    </body>
 </html>
